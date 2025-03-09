@@ -1,0 +1,24 @@
+:root {
+    --color-primary: #3d2c50;
+    --color-secondary: #6fbc18;
+    --color-accent: #3412f3;
+    --color-light: #FFFFFF;
+    --color-dark: #333333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
